@@ -1,0 +1,31 @@
+{
+  "name": "learning-react-express-mongo-using-docker",
+  "version": "1.0.0",
+  "description": "- https://qiita.com/s_harada/items/0dedf1159a25b166730d",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "ts-node-dev src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki-h-f/learning-react-express-mongo-using-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuki-h-f/learning-react-express-mongo-using-docker/issues"
+  },
+  "homepage": "https://github.com/yuki-h-f/learning-react-express-mongo-using-docker#readme",
+  "dependencies": {
+    "@types/mongodb": "^3.6.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.14",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
